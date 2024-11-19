@@ -3,7 +3,7 @@ import RoomJoinPage from "./RoomJoinPage";
 import CreateRoomPage from "./CreateRoomPage";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link,
   Redirect,
@@ -17,11 +17,14 @@ export default class HomePage extends Component {
   render() {
     return (
         <Router>
-            <Switch>
+            <Routes> 
+            
                 <Route path='/'><p>this is the Home page</p></Route>
                 <Route path='/join' element={<RoomJoinPage />} />
                 <Route path='/create' element={<CreateRoomPage />} />
-            </Switch>
+
+            </Routes>    
+            
         </Router>
     ) ;
   }
