@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default class RoomJoinPage extends Component {
-    construcor(props) {
+    constructor(props) {
         super(props);
     }
 
