@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 
 export default class HomePage extends Component {
-  construcor(props) {
+  construtcor(props) {
     super(props);
   }
 
