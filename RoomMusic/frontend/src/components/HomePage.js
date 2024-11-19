@@ -15,6 +15,12 @@ export default class HomePage extends Component {
   }
 
   render() {
-    return <p>This is the home page</p>;
+    return (
+        <Router>
+            <Switch>
+                <Route path='/'><p>this is the Home page</p></Route>
+            </Switch>
+        </Router>
+    ) ;
   }
 }
