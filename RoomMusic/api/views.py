@@ -10,5 +10,6 @@ class RoomView(generics.CreateAPIView):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer
 
-class CreateRoomView(APIView)
-    def
+class CreateRoomView(APIView):
+    serializer_class =CreateRoomSerializer
+    def post(self, request, format=None):
