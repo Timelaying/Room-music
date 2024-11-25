@@ -21,3 +21,4 @@ class CreateRoomView(APIView):
         if serializer.is_valid():
             guest_can_pause = serializer.data.guest_can_pause
             votes_to_skip = serializer.data.votes_to_skip
+            host = self.request.session.session_key
