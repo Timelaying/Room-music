@@ -27,4 +27,7 @@ class CreateRoomView(APIView):
                 room = queryset[0] #taking the first result annd th below are updating it
                 room.guest_can_pause = guest_can_pause
                 room.votes_to_skip = votes_to_skip
-                room.savae
+                room.save(update_fields=['guest_can_pause','votes_to_skip'])
+            else:
+                
+            
