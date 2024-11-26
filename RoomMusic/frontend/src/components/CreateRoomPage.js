@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Button from "@mui/material/Button";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import Textfield from "@material-ui/core/Textfield";
-import FormHelperText from "@material-ui/core/FormHelperText";
-import FormControl from "@material-ui/core/FormControl";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import Textfield from "@mui/material/TextField";
+import FormHelperText from "@mui/material/FormHelperText";
+import FormControl from "@mui/material/FormControl";
 import { Link } from "react-router-dom";
-import Radio from "@material-ui/core/Radio";
-import RadioGroup from "@material-ui/core/RadioGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Radio from "@mui/material/Radio";
+import RadioGroup from "@mui/material/RadioGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
 
 export default class CreateRoomPage extends Component {
     defaultsVotes = 2;
@@ -21,7 +21,7 @@ export default class CreateRoomPage extends Component {
         return <Grid container spacing = {1}>
             <Grid item xs = {12} align = "center">
                 <Typography Component = 'h4' variant = "h4">
-                    Create a Room
+                    Create a Roomde
                 </Typography>
             </Grid>
         </Grid>;
