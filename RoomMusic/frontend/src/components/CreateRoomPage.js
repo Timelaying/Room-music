@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from "@mui/material/Button";
-import Grid from "@mui/material/Grid";
+import Grid2 from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
 import Textfield from "@mui/material/TextField";
 import FormHelperText from "@mui/material/FormHelperText";
@@ -18,12 +18,12 @@ export default class CreateRoomPage extends Component {
     }
 
     render(){
-        return <Grid container spacing = {1}>
-            <Grid item xs = {12} align = "center">
+        return <Grid2 container spacing = {1}>
+            <Grid2 item xs = {12} align = "center">
                 <Typography Component = 'h4' variant = "h4">
-                    Create a Roomde
+                    Create a Room
                 </Typography>
-            </Grid>
-        </Grid>;
+            </Grid2>
+        </Grid2>;
     }
 }
