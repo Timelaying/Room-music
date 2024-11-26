@@ -18,6 +18,8 @@ export default class CreateRoomPage extends Component {
     }
 
     render(){
-        return <Grid container spacing = {1}></Grid>;
+        return <Grid container spacing = {1}>
+            <Grid item xs = {12} align = "center"></Grid>
+        </Grid>;
     }
 }
