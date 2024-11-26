@@ -18,6 +18,6 @@ export default class CreateRoomPage extends Component {
     }
 
     render(){
-        return <p>This is the page to create a room</p>;
+        return <Grid container spacing = {1}></Grid>;
     }
 }
