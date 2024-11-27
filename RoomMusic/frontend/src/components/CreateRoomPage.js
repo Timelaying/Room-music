@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from '@mui/material';
-import Grid2 from '@mui/material';
-import { Typography } from '@mui/material';
+import Grid from '@mui/material/Grid2';
+import { Typography }from '@mui/material';
 import TextField from '@mui/material';
 import FormHelperText from '@mui/material';
 import FormControl from '@mui/material';
@@ -18,7 +18,8 @@ export default class CreateRoomPage extends Component {
     }
 
     render(){
-        return <Button variant='text'>Text</Button>
+        // return <Button variant='text'>Text</Button>
+        
         return <Grid container spacing = {1}>
             <Grid item xs = {12} align = "center">
                 <Typography Component = 'h4' variant = "h4">
