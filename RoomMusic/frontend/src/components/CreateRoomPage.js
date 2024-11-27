@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Button from "@mui/material/Button";
-import Grid2 from "@mui/material/Grid2";
-import Typography from "@mui/material/Typography";
-import Textfield from "@mui/material/TextField";
-import FormHelperText from "@mui/material/FormHelperText";
-import FormControl from "@mui/material/FormControl";
+import { Button } from '@mui/material';
+import Grid from '@mui/material';
+import Typography from '@mui/material';
+import TextField from '@mui/material';
+import FormHelperText from '@mui/material';
+import FormControl from '@mui/material';
 import { Link } from "react-router-dom";
-import Radio from "@mui/material/Radio";
-import RadioGroup from "@mui/material/RadioGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
+import Radio from '@mui/material';
+import RadioGroup from '@mui/material';
+import FormControlLabel from '@mui/material';
 
 export default class CreateRoomPage extends Component {
     defaultsVotes = 2;
@@ -18,12 +18,12 @@ export default class CreateRoomPage extends Component {
     }
 
     render(){
-        return <Grid2 container spacing = {1}>
-            <Grid2 item xs = {12} align = "center">
+        return <Grid container spacing = {1}>
+            <Grid item xs = {12} align = "center">
                 <Typography Component = 'h4' variant = "h4">
                     Create a Room
                 </Typography>
-            </Grid2>
-        </Grid2>;
+            </Grid>
+        </Grid>;
     }
 }
