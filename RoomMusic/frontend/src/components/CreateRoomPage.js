@@ -26,6 +26,11 @@ export default class CreateRoomPage extends Component {
                     Create a Room
                 </Typography>
             </Grid>
+            <Grid item xs = {12} align = "center">
+                <FormControl component>
+
+                </FormControl>
+            </Grid>
         </Grid>;
     }
 }
