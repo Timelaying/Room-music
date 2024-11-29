@@ -27,7 +27,7 @@ export default class CreateRoomPage extends Component {
                 </Typography>
             </Grid>
             <Grid item xs = {12} align = "center">
-                <FormControl component = "center">
+                <FormControl component = "fieldset">
                     <FormHelperText>
                         <div align = "center">Guest Control of Playback State</div>
                     </FormHelperText>
