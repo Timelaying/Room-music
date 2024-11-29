@@ -3,8 +3,8 @@ import { Button } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import { Typography }from '@mui/material';
 import TextField from '@mui/material';
-import FormHelperText from '@mui/material';
-import FormControl from '@mui/material';
+import { FormHelperText } from '@mui/material';
+import { FormControl } from '@mui/material';
 import { Link } from "react-router-dom";
 import Radio from '@mui/material';
 import RadioGroup from '@mui/material';
@@ -27,8 +27,10 @@ export default class CreateRoomPage extends Component {
                 </Typography>
             </Grid>
             <Grid item xs = {12} align = "center">
-                <FormControl component>
-
+                <FormControl component = "center">
+                    <FormHelperText>
+                        <div align = "center">Guest Control of Playback State</div>
+                    </FormHelperText>
                 </FormControl>
             </Grid>
         </Grid>;
