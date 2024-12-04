@@ -5,5 +5,5 @@ urlpatterns = [
     path('',index),
     path('join', index),
     path('create', index)
-
+// paths
 ]
